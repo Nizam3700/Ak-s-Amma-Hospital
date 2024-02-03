@@ -1,0 +1,142 @@
+/* basics css  */
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+/* nav bar  */
+
+#Appointment{
+    margin-right: 10vh;
+    background-color: black;
+    color: #fff;
+}
+#Appointment:hover{
+    border: 2px solid black;
+    background-color: #D849FD;
+
+}
+
+/* btns  */
+#btns{
+    border-radius: 10px;
+
+}
+
+#btns:hover{
+    background-color: #D849FD;
+    border: 2px solid black;
+}
+
+/* nav bar  */
+
+
+/* Slide bar   */
+.text{
+    position: absolute;
+    top: 12vh; left: 15vw;
+    justify-content: center;
+    z-index: 1;
+}
+.text1{
+    position: absolute;
+    top: 12vh; left: 30vw;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+
+#btns_slide{
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: #D849FD;
+}
+
+
+#btns_slide:hover{
+    background-color: black;
+    border: 2px solid black;
+}
+
+
+#Consult{
+    text-decoration-line: none;
+    color: #fff;
+}
+
+#imgca{
+    height: 40vh;
+}
+
+@media  screen and (min-width: 760px){
+    #logo_img{
+        /* margin-left: 10vh; */
+        height: 12vh;
+    }
+    #imgca{
+        height: 70vh;
+    }
+    .text{
+        position: absolute;
+        top: 20vh; left: 20vw;
+        justify-content: center;
+        z-index: 1;
+    }
+    .text h2{
+        font-size: 65px;
+    }
+    .text h5{
+        font-size: 35px;
+    }
+    .text1{
+        position: absolute;
+        top: 20vh; left: 30vw;
+        justify-content: center;
+        text-align: center;
+        z-index: 1;
+    }
+    .text1 h2{
+        font-size: 65px;
+        color: brown;
+    }
+    .text1 h5{
+        font-size: 35px;
+    }
+    #btns_slide{
+        height: 8vh;
+        width: 30vh;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+
+}
+/* Slide bar   */
+
+
+/* Footer  */
+footer{
+    background-color: #fbe9ff;
+}
+.left_foot img{
+    margin-left: 14vh;
+}
+.social_icon{
+    margin: 3vh;
+    margin-left: 20vh;
+}
+
+.social_icon button{
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.social_icon button:hover{
+    background-color: black;
+    border: 2px solid #D849FD;
+}
+.left_foot p{
+    margin-top: 3vh ;
+    margin-left: 20vh;
+}
+/* Footer  */
